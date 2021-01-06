@@ -1,0 +1,2 @@
+module labExercise1 {
+}
