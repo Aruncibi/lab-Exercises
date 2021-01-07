@@ -15,7 +15,7 @@ public class Removeduplicates {
     for(int index=0;index<n;index++)
     arr[index]=scanner.nextInt();
     int as[]=modifyArray(arr,scanner);
-    for(int index=0;index<as.length;index++)
+    for(int index=as.length-1;index>=0;index--)
     	System.out.print(as[index]+" ");
 	}
 	private static int[] modifyArray(int []ar,Scanner scanner)
